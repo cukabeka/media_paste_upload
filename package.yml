@@ -1,0 +1,23 @@
+package: media_paste_upload
+version: '0.1'
+author: Friends Of REDAXO
+supportpage: https://github.com/FriendsOfREDAXO/
+
+page:
+    title: 'Media Paste Upload'
+    perm: media_paste_upload[]
+    subpages:
+        quickupload: { title: translate:upload_from_clipboard}
+        upload: { title: 'upload', hidden: true, hasLayout: false }
+
+pages:
+    mediapool/multiupload:
+        title: 'Media Paste Upload'
+        perm: media_paste_upload[]
+        subpages:
+          quickupload: { title: translate:upload_from_clipboard, hidden: true}
+
+requires:
+    packages:
+        media_manager: '^2.0.0'
+    redaxo: ^5.0
