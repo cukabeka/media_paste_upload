@@ -1,7 +1,7 @@
 <?php
 
 /**
- * multiupload Addon.
+ * media_paste_upload Addon.
  * @author Friends Of REDAXO
  * @package redaxo
  * @var rex_addon $this
