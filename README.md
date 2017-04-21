@@ -12,7 +12,13 @@ Installation
 * Das Addon in das Redaxo5 AddOns Verzeichnis /redaxo/src/addons/ ablegen
 * Im REDAXO CMS Backend unter Addons das multiupload-Addon installieren
 
-Beachte: dieses AddOn enthält nützliche Plugins
+ToDos
+-------
+* CSS fixen
+* save from base64 to mediapool
+* mediapool page seite
+* mediapool edit file after upload
+* code cleanup
 
 Last Changes
 -------
@@ -26,3 +32,4 @@ Credits / Respekt
 * nightstomp, Hirbod Mirjavadi (multiupload REDAXO CMS 4)
 * DECAF, Dirk Schürjohann (PreCompressor REDAXO CMS 4)
 * [REDAXO CMS](http://www.redaxo.org)
+* https://codepen.io/netsi1964/pen/IoJbg
